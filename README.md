@@ -13,11 +13,11 @@
 
 ## 分支操作
 
-创建并切换到新分支  
-    git checkout -b (分支名)
-
 切换到已有分支  
     git checkout (分支名)
+
+创建并切换到新分支  
+    git checkout -b (分支名)
 
 查看所有分支  
     git branch -a
@@ -30,4 +30,7 @@
     git branch -d B
 
 删除远程分支B  
-    git push (远程仓库别名) :B
+    git push (远程仓库别名) :（远程分支名）
+
+取回远程分支改动  
+    git fetch --all
